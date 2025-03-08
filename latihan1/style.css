@@ -1,0 +1,31 @@
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 400px;
+}
+
+/* Kategori Buku */
+.category-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.category-box:hover {
+    background: #ffc107;
+    color: white;
+}
+
+/* Buku Unggulan */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
